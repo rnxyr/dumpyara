@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Link="https://index.rnxyr.my.id/OctaviOS-v2.7-merlin-20210718-0526-VANILLA-Unofficial.zip"
+Link="https://index.rnxyr.my.id/PixelExperience_Plus_merlin-11.0-20210713-1425-UNOFFICIAL.zip"
 FileName="$(pwd)/miui_MERLIN_V12.5.2.0.RJOCNXM_dc5c5badb0_11.0.zip"
 export DEBIAN_FRONTEND=noninteractive
 apt-get -y update && apt-get -y upgrade && apt-get install -y unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller device-tree-compiler liblzma-dev python3 python3-pip brotli liblz4-tool axel gawk aria2 detox wget
